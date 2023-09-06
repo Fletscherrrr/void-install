@@ -5,3 +5,5 @@ ln -s /etc/sv/ntpd /var/service &&
 ln -s /etc/sv/dbus /var/service &&
 ln -s /etc/sv/NetworkManager /var/service &&
 ln -s /etc/sv/rtkit /var/service &&
+bash ~/void-install/session-start-method.sh &&
+mkdir /etc/pipewire && sudo cp -r /usr/share/pipewire/* /etc/pipewire && mv ~/void-install/pipewire.conf /etc/pipewire
