@@ -11,5 +11,5 @@ ln -s /etc/sv/rtkit /var/service &&
 bash ~/void-install/session-start-method.sh &&
 
 #pipewire
-mkdir /etc/pipewire && sudo cp -r /usr/share/pipewire/* /etc/pipewire && mv ~/void-install/pipewire.conf /etc/pipewire &&
+mkdir /etc/pipewire && cp -r /usr/share/pipewire/* /etc/pipewire && mv ~/void-install/pipewire.conf /etc/pipewire &&
 ln -s /usr/share/applications/pipewire.desktop /etc/xdg/autostart
